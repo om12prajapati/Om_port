@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from "framer-motion";
 
-import ecosyncImg from "../assets/ecosyncsmart.png";
+import ecoimageImg from "../assets/ecoimage.png";
 import screenshotImg from "../assets/Screenshot 2026-03-17 105421.png";
 
 const projects = [
@@ -10,7 +10,7 @@ const projects = [
     description: "A high-performance eCommerce platform for fitness supplements. Features include a custom-built product catalog, secure user authentication, and a streamlined cart system. Optimized for conversion with a clean, modern UI inspired by top-tier supplement brands.",
     tech: ["React JS", "Node JS", "MySQL", "Tailwind CSS"],
     link: "https://nutryhealth-frontend.onrender.com/",
-    image: ecosyncImg,
+    image: ecoimageImg,
     accent: "#00ab66", 
   },
   {
