@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from "framer-motion";
-import { FaArrowLeft, FaArrowRight, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+
+import ecosyncImg from '../assets/ecosync smart.png';
+import screenshotImg from '../assets/Screenshot 2026-03-17 105421.png';
 
 const projects = [
   {
@@ -8,7 +10,7 @@ const projects = [
     description: "A high-performance eCommerce platform for fitness supplements. Features include a custom-built product catalog, secure user authentication, and a streamlined cart system. Optimized for conversion with a clean, modern UI inspired by top-tier supplement brands.",
     tech: ["React JS", "Node JS", "MySQL", "Tailwind CSS"],
     link: "https://nutryhealth-frontend.onrender.com/",
-    image: "/src/assets/ecosync smart.png", 
+image: "/src/assets/ecosync smart.png",
     accent: "#00ab66", 
   },
   {
@@ -24,7 +26,7 @@ const projects = [
     description: "An IoT-integrated platform for real-time monitoring of waste levels. Utilizes automated routing algorithms to optimize collection schedules, significantly reducing operational costs and carbon footprint.",
     tech: ["React", "Node.js", "MongoDB", "JWT"],
     link: "https://github.com/om12prajapati/ecoSync",
-    image: "/src/assets/Screenshot 2026-03-17 105421.png",
+image: "/src/assets/Screenshot 2026-03-17 105421.png",
     accent: "#06b6d4",
   },
   {

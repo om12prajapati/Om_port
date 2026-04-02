@@ -1,18 +1,11 @@
-# Name Update Task Progress
 
-✅ Dependencies installed  
-✅ Development server running (http://localhost:5174)  
-✅ Updated ALL name references:
-• Footer.jsx: "Abhishek Kumar" → "Om Prajapati" (2 places)
-• About.jsx: "Abhishek Profile" → "Om Prajapati Profile"  
-• Home.jsx: "Abhishek" → "Om" (code demo) + GitHub links
-✅ Vite HMR updates live  
 
-✅ Profile image updated: profile.jpg → om.jpg
-✅ All updates complete!
+**Approved Plan:**
+- Edit Projects.jsx: Import local images, update projects array.
 
-**Final Status**: 
-✅ Name: Om Prajapati everywhere
-✅ Profile image: Your photo (om.jpg)
-✅ Server: http://localhost:5174/
-✅ Hard refresh: Ctrl+F5 to clear cache
+**Steps:**
+✅ 1. Edit Projects.jsx with imports and path fixes
+- [ ] 2. Test locally on dev server
+- [ ] 3. Commit and push changes
+- [ ] 4. Verify Vercel redeploy and images render
+
