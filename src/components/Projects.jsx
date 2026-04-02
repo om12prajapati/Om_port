@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from "framer-motion";
+import { FaExternalLinkAlt, FaGithub, FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 import ecoimageImg from "../assets/ecoimage.png";
 import screenshotImg from "../assets/Screenshot 2026-03-17 105421.png";
